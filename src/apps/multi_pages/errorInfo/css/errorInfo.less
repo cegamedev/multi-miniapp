@@ -1,0 +1,105 @@
+@charset "UTF-8";
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select, td {
+    margin: 0;
+    padding: 0; }
+
+body {
+    line-height: 1;
+    font-size: .3rem;
+    font-family: "Microsoft YaHei UI";
+    word-wrap: break-word; }
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal; }
+
+a, u, s, del {
+    text-decoration: none; }
+
+a,
+a:hover {
+    color: #333;
+    text-decoration: none;
+    cursor: pointer; }
+
+a:hover {
+    color: #04be83; }
+
+fieldset, img {
+    border: 0; }
+
+i, em, b {
+    font-style: normal;
+    font-weight: 500; }
+
+li {
+    list-style: none; }
+
+table {
+    border-collapse: collapse; }
+
+.ind2 {
+    text-indent: 2em; }
+
+/*溢出隐藏出现省略号*/
+.over {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+
+/*让图片垂直对齐方式*/
+/*给valign添加个子元素对齐图片. 当父元素没有设置宽度时,这个行内块元素会有6px的宽度, 如果父元素设置了宽度 这个块元素没有宽度*/
+.valign:after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle; }
+
+.valign img {
+    vertical-align: middle; }
+
+/*万能清除浮动法*/
+.clear {
+    zoom: 1; }
+
+.clear:after {
+    content: "";
+    clear: both;
+    display: block; }
+
+/*a标签清除蓝色*/
+a {
+    -webkit-tap-highlight-color: transparent; }
+
+input {
+    outline: medium; }
+
+button {
+    background: none;
+    border: 0;
+    cursor: pointer;
+    outline: medium; }
+
+[v-cloak] {
+    display: none; }
+
+body {
+    color: #444;
+    font-size: .26rem;
+    line-height: .3rem; }
+
+.item-box {
+    padding: .3rem; }
+.item-box .item {
+    display: flex;
+    margin-bottom: .4rem; }
+.item-box .item .bold {
+    font-weight: bold; }
+.item-box .item .red {
+    color: red; }
+.item-box .item .l {
+    width: 2rem; }
+.item-box .item .r {
+    flex: 1; }
+
+/*# sourceMappingURL=errorInfo.css.map */

@@ -1,0 +1,3 @@
+<template>
+  <tour-route />
+</template>

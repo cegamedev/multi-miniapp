@@ -1,0 +1,161 @@
+@charset "UTF-8";
+[v-cloak] {
+    display: none;
+}
+
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select, td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 0.28rem "microsoft yahei";
+    word-wrap: break-word;
+    line-height: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+a, u, s, del {
+    color: #000;
+    text-decoration: none;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+i, em, b {
+    font-style: normal;
+    font-weight: 500;
+}
+
+li {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.indent2 {
+    text-indent: 2em;
+}
+
+/*超过一行出现省略号*/
+.textOver {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*图片垂直对齐方式*/
+.vAlign:after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.vAlign img {
+    vertical-align: middle;
+}
+
+/*清除浮动*/
+.clearFix {
+    zoom: 1;
+}
+
+.clearFix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/*a标签清除蓝色*/
+a, button {
+    -webkit-tap-highlight-color: transparent;
+}
+
+input {
+    outline: medium;
+}
+
+button {
+    background: none;
+    border: 0;
+    cursor: pointer;
+    outline: medium;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #bec2cc;
+    font-size: 0.26rem;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.topBox {
+    height: 0.98rem;
+    position: relative;
+    padding: 0 0.3rem;
+    box-shadow: 0px 1px 0px 0px #ecebeb;
+}
+.topBox h1 {
+    font-size: 0.35rem;
+    line-height: 0.98rem;
+    text-align: center;
+}
+.topBox .back {
+    position: absolute;
+    left: 0.3rem;
+    top: 0.3rem;
+    height: 0.34rem;
+}
+
+.publicFooter {
+    position: fixed;
+    bottom: 0;
+    z-index: 2000;
+    width: 100%;
+    height: 1rem;
+    background-color: #fff;
+    border-top: 1px solid #ecebeb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.publicFooter .item {
+    text-align: center;
+}
+.publicFooter .item a {
+    display: block;
+}
+.publicFooter .item .picBox {
+    margin-bottom: 0.1rem;
+}
+.publicFooter .item .picBox img {
+    width: 0.33rem;
+}
+.publicFooter .item P {
+    font-size: 0.24rem;
+}
+
+.amap-marker-label {
+    position: absolute;
+    z-index: 2;
+    white-space: nowrap;
+    border: none;
+    background-color: unset;
+    cursor: default;
+    padding: 3px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+    color: #92062b;
+}

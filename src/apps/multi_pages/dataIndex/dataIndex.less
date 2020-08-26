@@ -1,0 +1,1080 @@
+html{
+  background: #f5f5f5;
+  width: 100%;
+  height: 100%;
+}
+body{
+  height: 100%;
+  padding-bottom:1rem;
+}
+.my-app{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+  padding-top: 0.6rem;
+  .tourtop{
+    background: url("../assets/dataIndex/bg.png") left top no-repeat;
+    background-size: 7.5rem 3rem;
+    width: 100%;
+    .tour{
+      margin:0 auto;
+      z-index: 2;
+      font-size: 0.26rem;
+      padding:1.8rem 0.2rem 0;
+      .tourList{
+        background: #E6FCF5;
+        border-top-left-radius:0.2rem;
+        border-top-right-radius:0.2rem;
+        display: flex;
+        flex: 1;
+        align-items: center;
+        line-height: 0.8rem;
+        padding-bottom: 0;
+        .tit{
+          line-height: 0.8rem;
+          height: 0.8rem;
+          -webkit-text-size-adjust:none;
+          font-size: 10px;
+          color: #2A2A2A;
+          text-align: center;
+          width: 1.77rem;
+          margin-bottom: 0;
+        }
+        .active{
+          line-height: 0.8rem;
+          font-size: 10px;
+          -webkit-text-size-adjust:none;
+          background: #fff;
+          font-weight: bold;
+        }
+      }
+    }
+    .verify,.deal,.tourist{
+      z-index: 2;
+      font-size: 0.3rem;
+      color: #3b3b38;
+      margin:-1px 0.2rem 0;
+    }
+    //开始写样式
+    .tourist{
+      background: #fff;
+      margin-bottom: 0.4rem;
+      border-bottom-left-radius:0.2rem;
+      border-bottom-right-radius:0.2rem;
+      .tour-tit{
+        font-size:0.24rem;
+        color:rgba(203,203,203,1);
+        line-height:0.5rem;
+        text-align: center;
+      }
+      .tour-btn{
+        padding: 0.1rem 0.36rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        .tourDate{
+          width:1.2rem;
+          height:0.5rem;
+          border:1px solid rgba(146,217,203,1);
+          border-radius:0.25rem;
+          font-size:0.24rem;
+          color:rgba(0,167,149,1);
+          line-height:0.5rem;
+          text-align: center;
+          margin-right: 0.1rem;
+
+        }
+        .dateActive{
+          color: #fff;
+          background: #00A795;
+        }
+      }
+      .tour-inputDate{
+        padding: 0.1rem 0 0.28rem;
+        margin: 0 0.36rem;
+        display: flex;
+        justify-content: flex-start;
+        border-bottom: 1px solid #EEEDED;
+        align-items: center;
+        .tour-inp{
+          width:1.6rem;
+          height:0.5rem;
+          border:1px solid rgba(146,217,203,1);
+          border-radius:0.25rem;
+          font-size:0.24rem;
+          color:rgba(0,167,149,1);
+          line-height:0.5rem;
+          text-align: center;
+        }
+        .tour-text{
+          color:rgba(0,167,149,1);
+          margin: 0 0.1rem;
+        }
+      }
+
+      .tour-gender{
+        padding: 0.1rem 0 0.28rem;
+        margin: 0 0.36rem;
+        border-bottom: 1px solid #EEEDED;
+        .gender{
+          font-size:0.28rem;
+          font-weight:bold;
+          color:rgba(42,42,42,1);
+          line-height:0.5rem;
+          margin-top: 0.3rem;
+          span{
+            font-size: 0.23rem;
+            color: #A9A9A9;
+            font-weight: 300;
+          }
+        }
+        .gender-pie{
+          width: 6.7rem;
+          height: 10rem;
+        }
+      }
+
+
+
+    }
+
+  }
+  //开始写样式
+  .verify{
+    line-height: 1;
+    .verify_top{
+      background: #fff;
+      //padding-top: .3rem;
+      height: 100%;
+      padding-bottom: .1rem;
+      border-bottom-left-radius: 0.2rem !important;
+      border-bottom-right-radius:0.2rem !important;
+      .selectTap1{
+        margin: 0 auto 0.4rem;
+        display: flex;
+        width:4.4rem;
+        height:.5rem;
+        border:1px solid rgba(146,217,203,1);
+        border-radius:.25rem;
+        .selectTap-item{
+          width: 2.2rem;
+          height: 0.5rem;
+          text-align: center;
+          line-height: 0.5rem;
+          font-size: 0.24rem;
+          color: #00a795;
+          &.active{
+            color: #fff;
+            background: #00A795;
+            border-radius:.25rem;
+          }
+        }
+      }
+      .verify_boxTitle-vip{
+        margin: .26rem 0.3rem 0;
+        display: flex;
+        .verify_boxButton{
+          width: 1.2rem;
+          padding: 0 0.3rem;
+          height: 0.5rem;
+          border: 1px solid #92d9cb;
+          border-radius: 0.25rem;
+          font-size: 0.24rem;
+          color: #00a795;
+          line-height: 0.5rem;
+          text-align: center;
+          margin-right: 0.1rem;
+          &.active{
+            background:rgba(212,241,232,1);
+            border: 1px solid rgba(212,241,232,1);
+          }
+          &:last-child{
+            margin-right: 0;
+          }
+        }
+      }
+      .verify_topTitle{
+        padding-top: .31rem;
+        padding-left: .38rem;
+        .verify_topTitle-1{
+          font-size:.26rem;
+          font-family:Source Han Sans CN;
+          font-weight:bold;
+          color:rgba(42,42,42,1);
+        }
+        .verify_topTitle-2{
+          margin-left: .14rem;
+          font-size: .24rem;
+          font-family:Source Han Sans CN;
+          font-weight:500;
+          color:rgba(203,203,203,1);
+        }
+      }
+      .verify_topBox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        .verify_item{
+          width: 33%;
+          margin-top: .71rem;
+          .verify_item-1{
+            font-size:.36rem;
+            font-family:Source Han Sans CN;
+            font-weight:bold;
+            color:rgba(241,82,82,1);
+          }
+          .verify_item-2{
+            margin-top: .33rem;
+            font-size:.28rem;
+            font-family:Source Han Sans CN;
+            font-weight:bold;
+            color:rgba(42,42,42,1);
+          }
+        }
+      }
+      .verify_topBoxFoot{
+        margin-top: .51rem;
+        margin-bottom: .42rem;
+        font-size:.22rem;
+        font-family:Source Han Sans CN;
+        font-weight:400;
+        color:rgba(183,183,183,1);
+        text-align: center;
+        div{
+          line-height: .32rem;
+        }
+      }
+      .verify_topBoxFoot1{
+        font-size:.2rem;
+        font-weight:400;
+        color:rgba(183,183,183,1);
+        text-align: justify;
+        margin: 0.3rem 0.2rem;
+        padding: 0.2rem;
+        background:rgba(250,250,250,1);
+        div{
+          line-height: .32rem;
+        }
+      }
+    }
+    .verify_box{
+      margin-top: .1rem;
+      background:rgba(255,255,255,1);
+      border-radius:.20rem;
+      padding-bottom: .34rem;
+      min-height: 7.1rem;
+      .verify_boxTitle{
+        padding-top: .33rem;
+        padding-left: .38rem;
+        .verify_boxTitle-1{
+          height:.25rem;
+          font-size:.26rem;
+          font-family:Source Han Sans CN;
+          font-weight:bold;
+          color:rgba(42,42,42,1);
+          line-height:.40rem;
+        }
+        .selectTap{
+          margin-top: .26rem;
+          display: flex;
+          width:5.49rem;
+          height:.5rem;
+          border:1px solid rgba(146,217,203,1);
+          border-radius:.25rem;
+          .selectTap-item{
+            width: 1.83rem;
+            height: 0.5rem;
+            text-align: center;
+            line-height: 0.5rem;
+            font-size: 0.24rem;
+            color: #00a795;
+            &.active{
+              color: #fff;
+              background: #00A795;
+              border-radius:.25rem;
+            }
+          }
+        }
+        .selectTap-vip{
+          margin-top: .26rem;
+          display: flex;
+          width:3.66rem;
+          height:.5rem;
+          border:1px solid rgba(146,217,203,1);
+          border-radius:.25rem;
+          .selectTap-item{
+            width: 1.83rem;
+            height: 0.5rem;
+            text-align: center;
+            line-height: 0.5rem;
+            font-size: 0.24rem;
+            color: #00a795;
+            &.active{
+              color: #fff;
+              background: #00A795;
+              border-radius:.25rem;
+            }
+          }
+        }
+
+        .selectTap-info{
+          font-size:.22rem;
+          font-family:Source Han Sans CN;
+          font-weight:400;
+          color:rgba(172,218,204,1);
+          margin-top: .15rem;
+        }
+        .verify_boxTitle-2{
+          margin-top: .26rem;
+          display: flex;
+          .verify_boxButton{
+            width: 1.2rem;
+            height: 0.5rem;
+            border: 1px solid #92d9cb;
+            border-radius: 0.25rem;
+            font-size: 0.24rem;
+            color: #00a795;
+            line-height: 0.5rem;
+            text-align: center;
+            margin-right: 0.1rem;
+            &.active{
+              color: #fff;
+              background: #00A795;
+            }
+            &:last-child{
+              margin-right: 0;
+            }
+          }
+        }
+        .verify_boxTitle-vip{
+          margin-top: .26rem;
+          display: flex;
+          .verify_boxButton{
+            width: 1.2rem;
+            height: 0.5rem;
+            border: 1px solid #92d9cb;
+            border-radius: 0.25rem;
+            font-size: 0.24rem;
+            color: #00a795;
+            line-height: 0.5rem;
+            text-align: center;
+            margin-right: 0.1rem;
+            &.active{
+              background:rgba(212,241,232,1);
+              border: none;
+            }
+            &:last-child{
+              margin-right: 0;
+            }
+          }
+        }
+        .verify-inputDate{
+          margin-top: .19rem;
+          display: flex;
+          align-items: center;
+          .verify_inp{
+            width: 1.6rem;
+            height: 0.5rem;
+            border: 1px solid #92d9cb;
+            border-radius: 0.25rem;
+            font-size: 0.24rem;
+            color: #00a795;
+            line-height: 0.5rem;
+            text-align: center;
+          }
+          .verify-text{
+            color: #00a795;
+            margin: 0 0.1rem;
+          }
+        }
+      }
+      .table-title{
+        margin-left: .21rem;
+        margin-top: .35rem;
+        font-size:.26rem;
+        font-family:Source Han Sans CN;
+        font-weight:400;
+        color:rgba(42,42,42,1);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .color{
+          width:0.07rem;
+          height:0.24rem;
+          background:rgba(0,167,149,1);
+          margin-right: .1rem;
+        }
+      }
+      .verify_table{
+        margin-bottom: .82rem;
+        margin-top: .34rem;
+        width: 100%;
+        text-align: center;
+        .verify_th{
+          height:.70rem;
+          background:rgba(212,241,232,1);
+        }
+        .verify_tbody{
+          height:1rem;
+          background:#f0faf9;
+        }
+        .product{
+          font-size:.24rem;
+          font-family:Source Han Sans CN;
+          font-weight:400;
+          color:rgba(42,42,42,1);
+        }
+        tbody tr:nth-child(2n){ background: rgba(255,255,255,1);}
+      }
+
+    }
+
+  }
+  .deal{
+    line-height: 1;
+    .deal_top{
+      background: #fff;
+      height: 8.9rem;
+      border-bottom-left-radius: 0.2rem !important;
+      border-bottom-right-radius:0.2rem !important;
+      .deal_topTitle{
+        padding-top: .31rem;
+        padding-left: .38rem;
+        .deal_topTitle-1{
+          font-size:.26rem;
+          font-family:Source Han Sans CN;
+          font-weight:bold;
+          color:rgba(42,42,42,1);
+        }
+        .deal_topTitle-2{
+          margin-left: .14rem;
+          font-size: .24rem;
+          font-family:Source Han Sans CN;
+          font-weight:500;
+          color:rgba(203,203,203,1);
+        }
+      }
+      .deal_topBox{
+        display: flex;
+        //flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        margin-top: .70rem;
+        .deal_item{
+          width: 33.33%;
+          .deal_item-1{
+            font-size:.36rem;
+            font-family:Source Han Sans CN;
+            font-weight:bold;
+            color:rgba(241,82,82,1);
+          }
+          .deal_item-2{
+            margin-top: .29rem;
+            font-size:.28rem;
+            font-family:Source Han Sans CN;
+            font-weight:bold;
+            color:rgba(42,42,42,1);
+          }
+          .deal_item-3{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: .28rem;
+            font-size:.24rem;
+            font-family:Source Han Sans CN;
+            font-weight:400;
+            color:rgba(101,101,101,1);
+            img{
+              width: .18rem;
+              margin: 0 .08rem;
+            }
+            .green{
+              color:rgba(11,201,110,1);
+            }
+            .red{
+              color:rgba(241,82,82,1);
+            }
+            .yellow{
+              color:rgba(255,153,22,1);
+            }
+          }
+          .deal_item-4{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: .16rem;
+            font-size:.24rem;
+            font-family:Source Han Sans CN;
+            font-weight:400;
+            color:rgba(101,101,101,1);
+            img{
+              width: .18rem;
+              margin: 0 .08rem;
+            }
+            .green{
+              color:rgba(11,201,110,1);
+            }
+            .red{
+              color:rgba(241,82,82,1);
+            }
+            .yellow{
+              color:rgba(255,153,22,1);
+            }
+
+          }
+        }
+      }
+      .deal_trend{
+        margin-top: .79rem;
+        padding-left: .38rem;
+        .deal_trendTitle{
+          height:.25rem;
+          font-size:.26rem;
+          font-family:Source Han Sans CN;
+          font-weight:bold;
+          color:rgba(42,42,42,1);
+          line-height:.4rem;
+        }
+        .deal_trendTag{
+          margin-top: .31rem;
+          margin-bottom: .45rem;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          .deal_trendTagT{
+            margin-left: .13rem;
+            margin-right: .31rem;
+            font-size:.22rem;
+            font-family:Source Han Sans CN;
+            font-weight:400;
+            color:rgba(126,127,129,1);
+          }
+          .deal_trendTagI{
+            width:.16rem;
+            height:.16rem;
+            border-radius:50%;
+          }
+        }
+      }
+    }
+    .deal_box{
+      margin-top: .1rem;
+      background:rgba(255,255,255,1);
+      border-radius:.20rem;
+      padding-bottom: .34rem;
+      .deal_boxTitle{
+        padding-top: .33rem;
+        padding-left: .38rem;
+        .deal_boxTitle-1{
+          height:.25rem;
+          font-size:.26rem;
+          font-family:Source Han Sans CN;
+          font-weight:bold;
+          color:rgba(42,42,42,1);
+          line-height:.40rem;
+        }
+        .deal_boxTitle-2{
+          display: flex;
+          margin-top: .26rem;
+          padding-right: .2rem;
+          justify-content: space-between;
+          align-items: center;
+          .deal-btn{
+            display: flex;
+            .deal_boxButton{
+              width: 1.2rem;
+              height: 0.5rem;
+              border: 1px solid #92d9cb;
+              border-radius: 0.25rem;
+              font-size: 0.24rem;
+              color: #00a795;
+              line-height: 0.5rem;
+              text-align: center;
+              margin-right: 0.1rem;
+              &.active{
+                color: #fff;
+                background: #00A795;
+              }
+              &:last-child{
+                margin-right: 0;
+              }
+            }
+          }
+          .deal-inputDate{
+            display: flex;
+            align-items: center;
+            .deal_boxTime{
+              width: 1.6rem;
+              height: 0.5rem;
+              border: 1px solid #92d9cb;
+              border-radius: 0.25rem;
+              font-size: 0.24rem;
+              color: #00a795;
+              line-height: 0.5rem;
+              text-align: center;
+            }
+            .deal-text{
+              color: #00a795;
+              margin: 0 0.1rem;
+            }
+          }
+          .deal_line{
+            border-left: 1px solid #00a795;
+            height: .28rem;
+          }
+
+        }
+      }
+      .deal_boxLine{
+        padding-top: .69rem;
+        padding-left: .52rem;
+        width: 6.5rem;
+        height: 3.5rem;
+      }
+    }
+    .deal_detail{
+      margin-top: .1rem;
+      background:rgba(255,255,255,1);
+      border-radius:.20rem;
+      padding-bottom: .7rem;
+      .deal_detailTitle{
+        padding-top: .4rem;
+        padding-left: .38rem;
+        height:.26rem;
+        font-size:.26rem;
+        font-family:Source Han Sans CN;
+        font-weight:bold;
+        color:rgba(42,42,42,1);
+        line-height:.4rem;
+      }
+      .deal_table{
+        margin-bottom: .82rem;
+        margin-top: .34rem;
+        width: 100%;
+        text-align: center;
+        .deal_th{
+          height:.70rem;
+          background:rgba(212,241,232,1);
+        }
+        .deal_tbody{
+          height:.70rem;
+          background:#f0faf9;
+        }
+        tbody tr:nth-child(2n){ background: rgba(255,255,255,1);}
+      }
+    }
+  }
+
+  //  订单模块开始=====================
+  .order{
+    line-height: 1;
+    .order-box1{
+      background: #fff;
+      width:7.1rem;
+      border-radius:0 0 .2rem .2rem;
+      margin: 0 auto .1rem;
+      > .t{
+        padding: .3rem .38rem .65rem;
+        font-size:.24rem;
+        color:rgba(203,203,203,1);
+        span{
+          font-weight:bold;
+          color:rgba(42,42,42,1);
+          padding-right: .2rem;
+        }
+      }
+      > .b{
+        padding-bottom: .50rem;
+        display: flex;
+        justify-content: space-between;
+        .item{
+          width: 33%;
+          text-align: center;
+          .p1{
+            font-size:.36rem;
+            font-weight:bold;
+            color:rgba(241,82,82,1);
+            margin-bottom: .33rem;
+          }
+          .p2{
+            font-size:.28rem;
+            font-weight:bold;
+            color:rgba(42,42,42,1);
+            margin-bottom: .18rem;
+          }
+          .p3{
+            font-size:.24rem;
+            font-weight:400;
+            color:rgba(101,101,101,1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+              width: .18rem;
+              margin: 0 .08rem;
+            }
+            &:nth-child(3){
+              margin-bottom: .16rem;
+            }
+            .green{
+              color:rgba(11,201,110,1);
+            }
+            .red{
+              color:rgba(241,82,82,1);
+            }
+            .yellow{
+              color:rgba(255,153,22,1);
+            }
+          }
+        }
+      }
+      > .c{
+        font-size:.22rem;
+        font-family:Source Han Sans CN;
+        font-weight:400;
+        color:rgba(183,183,183,1);
+        padding-bottom: .37rem;
+        text-align: center;
+      }
+    }
+    .order-box2{
+      position: relative;
+      background: #fff;
+      width:7.1rem;
+      border-radius: .2rem;
+      margin: 0 auto .1rem;
+      padding: .3rem .36rem;
+      box-sizing: border-box;
+      .option-box{
+        //display: none;
+        position: absolute;
+        z-index: 1000;
+        top: .62rem;
+        right: 0;
+        box-shadow: 0px .06rem .28rem .02rem rgba(109, 161, 136, 0.2);
+        background: #fff;
+        border-radius: .2rem;
+        padding: .1rem .2rem;
+        .item{
+          height: .8rem;
+          line-height: .8rem;
+          font-size: .26rem;
+          color: #595956;
+        }
+
+      }
+      .t-box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size:.26rem;
+        font-weight:bold;
+        color:rgba(42,42,42,1);
+        margin-bottom: .28rem;
+        img{
+          width: .34rem;
+        }
+      }
+      .b-box{
+        .filter-box{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: .3rem;
+          .tour-btn{
+            display: flex;
+            .tourDate{
+              width: 1.2rem;
+              height: 0.5rem;
+              border: 1px solid #92d9cb;
+              border-radius: 0.25rem;
+              font-size: 0.24rem;
+              color: #00a795;
+              line-height: 0.5rem;
+              text-align: center;
+              margin-right: 0.1rem;
+              &.active{
+                color: #fff;
+                background: #00A795;
+              }
+              &:last-child{
+                margin-right: 0;
+              }
+            }
+          }
+          .tour-inputDate{
+            display: flex;
+            align-items: center;
+            .tour-inp{
+              width: 1.6rem;
+              height: 0.5rem;
+              border: 1px solid #92d9cb;
+              border-radius: 0.25rem;
+              font-size: 0.24rem;
+              color: #00a795;
+              line-height: 0.5rem;
+              text-align: center;
+            }
+            .tour-text{
+              color: #00a795;
+              margin: 0 0.1rem;
+            }
+          }
+          .line{
+            border-left: 1px solid #00a795;
+            height: .28rem;
+          }
+        }
+        .chart-box{
+          height: 3.5rem;
+          width: 6.3rem;
+        }
+      }
+    }
+
+    .order-box3{
+      background: #fff;
+      width:7.1rem;
+      border-radius: .2rem;
+      margin: 0 auto .4rem;
+      padding: .3rem 0;
+      box-sizing: border-box;
+      .title{
+        font-size:.26rem;
+        font-weight:bold;
+        color:rgba(42,42,42,1);
+        padding: 0 0 .3rem .38rem;
+      }
+      table{
+        width: 100%;
+        color:  #2A2A2A;
+        font-size: .26rem;
+        text-align: center;
+        thead{
+          background:rgba(212,241,232,1);
+          td{
+            height:.7rem;
+          }
+        }
+        tbody{
+          tr:nth-child(2n-1){
+            background: #f1faf7;
+          }
+          td{
+            height:.8rem;
+          }
+        }
+      }
+    }
+  }
+  //  订单模块结束=====================
+  //  交易额模块开始=====================
+  .sum_box{
+    line-height: 1;
+    .order-box1{
+      background: #fff;
+      width:7.1rem;
+      border-radius:0 0 .2rem .2rem;
+      margin: 0 auto .1rem;
+      > .t{
+        padding: .3rem .38rem .65rem;
+        font-size:.24rem;
+        color:rgba(203,203,203,1);
+        span{
+          font-weight:bold;
+          color:rgba(42,42,42,1);
+          padding-right: .2rem;
+        }
+      }
+      > .b{
+        padding-bottom: .58rem;
+        display: flex;
+        justify-content: space-between;
+        .item{
+          width: 50%;
+          text-align: center;
+          .p1{
+            font-size:.36rem;
+            font-weight:bold;
+            color:rgba(241,82,82,1);
+            margin-bottom: .33rem;
+          }
+          .p2{
+            font-size:.28rem;
+            font-weight:bold;
+            color:rgba(42,42,42,1);
+            margin-bottom: .18rem;
+          }
+          .p3{
+            font-size:.24rem;
+            font-weight:400;
+            color:rgba(101,101,101,1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+              width: .18rem;
+              margin: 0 .08rem;
+            }
+            &:nth-child(3){
+              margin-bottom: .16rem;
+            }
+            .green{
+              color:rgba(11,201,110,1);
+            }
+            .red{
+              color:rgba(241,82,82,1);
+            }
+            .yellow{
+              color:rgba(255,153,22,1);
+            }
+          }
+        }
+      }
+      > .c{
+        font-size:.22rem;
+        font-family:Source Han Sans CN;
+        font-weight:400;
+        color:rgba(183,183,183,1);
+        padding-bottom: .37rem;
+        text-align: center;
+      }
+    }
+    .order-box2{
+      position: relative;
+      background: #fff;
+      width:7.1rem;
+      border-radius: .2rem;
+      margin: 0 auto .1rem;
+      padding: .3rem 0;
+      box-sizing: border-box;
+      .option-box{
+        //display: none;
+        position: absolute;
+        z-index: 1000;
+        top: .62rem;
+        right: 0;
+        box-shadow: 0px .06rem .28rem .02rem rgba(109, 161, 136, 0.2);
+        background: #fff;
+        border-radius: .2rem;
+        padding: .1rem .2rem;
+        .item{
+          height: .8rem;
+          line-height: .8rem;
+          font-size: .26rem;
+          color: #595956;
+        }
+
+      }
+      .t-box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size:.26rem;
+        font-weight:bold;
+        color:rgba(42,42,42,1);
+        margin-bottom: .28rem;
+        padding: 0 0.36rem;
+        img{
+          width: .34rem;
+        }
+      }
+      .b-box{
+        .filter-box{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: .3rem;
+          padding: 0 0.36rem;
+          .tour-btn{
+            display: flex;
+            .tourDate{
+              width: 1.2rem;
+              height: 0.5rem;
+              border: 1px solid #92d9cb;
+              border-radius: 0.25rem;
+              font-size: 0.24rem;
+              color: #00a795;
+              line-height: 0.5rem;
+              text-align: center;
+              margin-right: 0.1rem;
+              &.active{
+                color: #fff;
+                background: #00A795;
+              }
+              &:last-child{
+                margin-right: 0;
+              }
+            }
+          }
+          .tour-inputDate{
+            display: flex;
+            align-items: center;
+            .tour-inp{
+              width: 1.6rem;
+              height: 0.5rem;
+              border: 1px solid #92d9cb;
+              border-radius: 0.25rem;
+              font-size: 0.24rem;
+              color: #00a795;
+              line-height: 0.5rem;
+              text-align: center;
+            }
+            .tour-text{
+              color: #00a795;
+              margin: 0 0.1rem;
+            }
+          }
+          .line{
+            border-left: 1px solid #00a795;
+            height: .28rem;
+          }
+        }
+        .chart-box{
+          height: 3.5rem;
+          width: 7.1rem;
+        }
+      }
+    }
+
+    .order-box3{
+      background: #fff;
+      width:7.1rem;
+      border-radius: .2rem;
+      margin: 0 auto .4rem;
+      padding: .3rem 0;
+      box-sizing: border-box;
+      .title{
+        font-size:.26rem;
+        font-weight:bold;
+        color:rgba(42,42,42,1);
+        padding: 0 0 .3rem .38rem;
+      }
+      table{
+        width: 100%;
+        color:  #2A2A2A;
+        font-size: .26rem;
+        text-align: center;
+        thead{
+          background:rgba(212,241,232,1);
+          td{
+            height:.7rem;
+          }
+        }
+        tbody{
+          tr:nth-child(2n-1){
+            background: #f1faf7;
+          }
+          td{
+            height:.8rem;
+          }
+        }
+      }
+    }
+  }
+
+}
+

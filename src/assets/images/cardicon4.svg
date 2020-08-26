@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="102px" height="107px" viewBox="0 0 102 107" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>index_icon_ Child device online</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="74.1765254%" y1="64.3255199%" x2="28.993729%" y2="35.2770773%" id="linearGradient-1">
+            <stop stop-color="#FF3A2E" offset="0%"></stop>
+            <stop stop-color="#FF855C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="74.1765254%" y1="72.3836249%" x2="28.993729%" y2="26.9954334%" id="linearGradient-2">
+            <stop stop-color="#FF3A2E" offset="0%"></stop>
+            <stop stop-color="#FF855C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="74.1765254%" y1="60.4056107%" x2="28.993729%" y2="39.3057283%" id="linearGradient-3">
+            <stop stop-color="#FF3A2E" offset="0%"></stop>
+            <stop stop-color="#FF855C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#FC4E44" offset="0%"></stop>
+            <stop stop-color="#FF936E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="用户后台" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页_无异常" transform="translate(-1218.000000, -176.000000)">
+            <g id="编组-2备份-26" transform="translate(1038.000000, 176.000000)">
+                <g id="index_icon_-Child-device-online" transform="translate(177.000000, 0.000000)">
+                    <g id="编组-3" transform="translate(0.000000, 12.000000)">
+                        <ellipse id="椭圆形" stroke="" stroke-width="1.1" cx="40.15" cy="41.8" rx="18.7" ry="36.85"></ellipse>
+                        <ellipse id="椭圆形" fill="url(#linearGradient-1)" cx="12.65" cy="27.5" rx="2.75" ry="2.2"></ellipse>
+                        <ellipse id="椭圆形" stroke="" stroke-width="1.1" transform="translate(41.250000, 40.700000) rotate(-270.000000) translate(-41.250000, -40.700000) " cx="41.25" cy="40.7" rx="18.7" ry="36.85"></ellipse>
+                        <ellipse id="椭圆形" stroke="" stroke-width="1.1" transform="translate(40.472183, 41.022183) rotate(-315.000000) translate(-40.472183, -41.022183) " cx="40.4721825" cy="41.0221825" rx="18.7" ry="36.85"></ellipse>
+                        <ellipse id="椭圆形" stroke="" stroke-width="1.1" transform="translate(42.027817, 41.022183) scale(-1, 1) rotate(-315.000000) translate(-42.027817, -41.022183) " cx="42.0278175" cy="41.0221825" rx="18.7" ry="36.85"></ellipse>
+                        <ellipse id="椭圆形" fill="url(#linearGradient-1)" transform="translate(48.950000, 7.700000) scale(-1, 1) rotate(-315.000000) translate(-48.950000, -7.700000) " cx="48.95" cy="7.7" rx="2.75" ry="2.2"></ellipse>
+                        <circle id="椭圆形备份-13" fill="url(#linearGradient-2)" cx="72.05" cy="18.15" r="1.65"></circle>
+                        <circle id="椭圆形备份-14" fill="url(#linearGradient-2)" cx="11.55" cy="65.45" r="1.65"></circle>
+                    </g>
+                    <g id="编组-14" transform="translate(31.000000, 45.000000)">
+                        <rect id="矩形" fill="url(#linearGradient-3)" x="0" y="0" width="18.399744" height="12.54528" rx="1.672704"></rect>
+                        <rect id="矩形备份-7" fill="url(#linearGradient-4)" x="5.854464" y="14.217984" width="6.690816" height="1.672704" rx="0.836352"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

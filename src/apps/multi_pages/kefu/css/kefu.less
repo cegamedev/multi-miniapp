@@ -1,0 +1,106 @@
+
+#app {
+  background: #F5F5F5;
+  line-height: 1;
+  height: 100vh;
+}
+
+.scroll-box {
+  height: calc(100% - 1rem);
+  box-sizing: border-box;
+  padding: .40rem .30rem;
+  overflow-y: scroll;
+}
+
+.scroll-box .item-box {
+  display: flex;
+  padding-bottom: .50rem;
+}
+
+.scroll-box .item-box .item {
+  width: 5.40rem;
+  display: flex;
+}
+
+.scroll-box .item-box.right {
+  justify-content: flex-end;
+}
+
+.scroll-box .item-box.right .item {
+  justify-content: flex-end;
+}
+
+.scroll-box .item-box .item .avatar-img-box {
+  flex: 0 0 .70rem;
+  height: .70rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: .10rem;
+}
+
+.scroll-box .item-box.right .item .avatar-img-box {
+  margin-right: 0;
+  margin-left: .10rem;
+}
+
+.scroll-box .item-box .item .avatar-img-box .avatar-img {
+  width: 100%;
+  height: 100%;
+}
+
+.scroll-box .item-box .item .txt-box {
+  max-width: 4.60rem;
+  background: rgba(254, 255, 255, 1);
+  box-shadow: .06rem .14rem .10rem 0px rgba(0, 178, 29, 0.05);
+  border-radius: .35rem .35rem .35rem .06rem;
+  padding: .15rem .47rem;
+  line-height: .4rem;
+  font-size: .26rem;
+  color: rgba(38, 41, 51, 1);
+  img{
+    max-width: 3.6rem !important;
+  }
+}
+
+.scroll-box .item-box.right .item .txt-box {
+  background: linear-gradient(90deg, rgba(141, 208, 214, 1) 0%, rgba(99, 228, 175, 1) 100%);
+  box-shadow: .06rem .14rem .10rem 0px rgba(0, 178, 29, 0.05);
+  border-radius: .35rem .35rem .06rem .35rem;
+}
+
+.scroll-box .item-box.right .item .txt-box{
+  color: #fff;
+}
+
+.bottom-box {
+  height: 1rem;
+  background: rgba(234, 234, 234, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-box .input-box {
+  width: 6rem;
+  height: .70rem;
+  background: rgba(254, 255, 255, 1);
+  border-radius: .35rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 .25rem;
+}
+
+.bottom-box .input-box input {
+  flex: 1;
+  height: .7rem;
+  font-size: .26rem;
+  border: 0;
+}
+
+.bottom-box .input-box .send-img {
+  width: .34rem;
+  height: .30rem;
+  margin-left: .20rem;
+}

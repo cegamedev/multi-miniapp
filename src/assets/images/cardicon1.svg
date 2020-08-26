@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="102px" height="109px" viewBox="0 0 102 109" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>index_icon_ Total equipment</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="74.1765254%" y1="60.6461949%" x2="28.993729%" y2="39.0584701%" id="linearGradient-1">
+            <stop stop-color="#FF3A2E" offset="0%"></stop>
+            <stop stop-color="#FF855C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="74.1765254%" y1="72.3836249%" x2="28.993729%" y2="26.9954334%" id="linearGradient-2">
+            <stop stop-color="#FF3A2E" offset="0%"></stop>
+            <stop stop-color="#FF855C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="用户后台" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页_无异常" transform="translate(-300.000000, -175.000000)">
+            <g id="编组-2备份-23" transform="translate(120.000000, 175.000000)">
+                <g id="index_icon_-Total-equipment" transform="translate(180.000000, 0.000000)">
+                    <path d="M48.7313516,43 C49.6492355,43 50.4121419,43.7071592 50.4816572,44.622407 L50.634,46.636 L52.018688,46.6363636 C54.2175059,46.6363636 56,48.4188577 56,50.6176756 L56,59.018688 C56,61.2175059 54.2175059,63 52.018688,63 L30.981312,63 C28.7824941,63 27,61.2175059 27,59.018688 L27,50.6176756 C27,48.4188577 28.7824941,46.6363636 30.981312,46.6363636 L46.828,46.636 L46.981046,44.622407 C47.0505612,43.7071592 47.8134676,43 48.7313516,43 Z M33.2142857,53.9090909 C32.0702673,53.9090909 31.1428571,54.7231186 31.1428571,55.7272727 C31.1428571,56.7314268 32.0702673,57.5454545 33.2142857,57.5454545 C34.3583041,57.5454545 35.2857143,56.7314268 35.2857143,55.7272727 C35.2857143,54.7231186 34.3583041,53.9090909 33.2142857,53.9090909 Z M41.5,53.9090909 C40.3559816,53.9090909 39.4285714,54.7231186 39.4285714,55.7272727 C39.4285714,56.7314268 40.3559816,57.5454545 41.5,57.5454545 C42.6440184,57.5454545 43.5714286,56.7314268 43.5714286,55.7272727 C43.5714286,54.7231186 42.6440184,53.9090909 41.5,53.9090909 Z" id="形状结合备份" fill="url(#linearGradient-1)"></path>
+                    <circle id="椭圆形备份-11" stroke="" stroke-width="1.1" transform="translate(46.500000, 55.500000) scale(-1, 1) rotate(-180.000000) translate(-46.500000, -55.500000) " cx="46.5" cy="55.5" r="33.95"></circle>
+                    <circle id="椭圆形备份-12" stroke="" stroke-width="1.1" transform="translate(34.500000, 55.500000) scale(1, -1) translate(-34.500000, -55.500000) " cx="34.5" cy="55.5" r="33.95"></circle>
+                    <circle id="椭圆形" fill="url(#linearGradient-2)" cx="27" cy="22" r="3"></circle>
+                    <circle id="椭圆形备份-15" fill="url(#linearGradient-2)" cx="68" cy="82" r="3"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
