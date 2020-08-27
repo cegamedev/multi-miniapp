@@ -1,18 +1,12 @@
-import Vue from 'vue';
-import Antd from 'ant-design-vue';
-import 'ant-design-vue/dist/antd.less';
+import './assets/index.css';
+import hello from './hello';
+import world from './world';
 
-import App from './App';
-import router from './router';
+import logo from './assets/logo.jpg';
+$('.imgblock').attr('src',logo);
 
-Vue.use(Antd);
+const str1 = hello();
+const str2 = world();
+$('.hello').html(str1);
+$('.world').html(str2);
 
-Vue.config.productionTip = false;
-
-
-const app = new Vue({
-  router,
-  render: h => h(App),
-}).$mount('#app');
-
-export default app;

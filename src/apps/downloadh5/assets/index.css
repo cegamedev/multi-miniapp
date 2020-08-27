@@ -1,0 +1,10 @@
+html,body {
+  margin: 0;
+  padding: 0;
+}
+
+.cover {
+  width: 200px;
+  height: 200px;
+  background: url('./logo.jpg');
+}

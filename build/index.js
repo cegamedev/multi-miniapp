@@ -26,16 +26,22 @@ if (buildNames.length <= 0) {
 }
 
 const buildMultiObj = {};
+const buildHtmlObj = {};
 buildNames.forEach((appName)=>{
     const appFiles = fs.readdirSync(`./src/apps/${appName}`);
+    console.log(JSON.stringify(appFiles).red);
     if (appFiles.includes('tpl')) {
         buildMultiObj[appName] = 1;
+    }
+    if (appFiles.includes('ejs')) {
+        buildHtmlObj[appName] = 1;
     }
 });
 
 console.log('编译模式：'.green, mode.yellow);
 console.log('编译对象：'.green, JSON.stringify(buildNames).yellow);
 console.log('多页面模板：'.green, JSON.stringify(buildMultiObj).yellow);
+console.log('纯html页面模板：'.green, JSON.stringify(buildHtmlObj).yellow);
 
 // 开始执行编译命令
 if (!['buildpro','buildtest','builddev'].includes(mode)) {
@@ -44,6 +50,18 @@ if (!['buildpro','buildtest','builddev'].includes(mode)) {
 
 const buildMode = mode === 'buildpro' ? '' : `--mode=${mode}`;
 for (let i = 0; i < buildNames.length; i++) {
+
+    // 纯html页面类工程编译
+    if (buildHtmlObj[buildNames[i]]) {
+        shell.exec(`webpack --config=html.webpack.config.js --color --app=${buildNames[i]}`, (error, stdout, stderr) => {
+            if (error) {
+                throw new Error(`exec error: ${error}`);
+            }
+            console.log(`stdout: ${stdout}`);
+            console.log(`stderr: ${stderr}`);
+        });
+        continue;
+    }
 
     const buildMulti = buildMultiObj[buildNames[i]] ? '--multi' : '';
 
